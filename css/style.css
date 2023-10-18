@@ -1,0 +1,26 @@
+* {
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.img-arena {
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+}
+
+.canvas{
+    border: 2px solid #000;
+    background-image: url(../images/arena.png);
+    background-size: cover;
+}
+
+main {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+
+.text-red{
+    color: #900;
+}

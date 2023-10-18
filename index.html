@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sprint 04 - Demirval</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <!-- Fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div class="container mx-auto d-flex justify-content-center align-content-center my-5 flex-column">
+      <div class="col container d-flex justify-content-space-between align-items-center mx-auto">
+        <div class="me-auto col-md-4 my-3">
+          <h1 class="text-light text-center" id="infoRobo1">Demirval</h1>
+             <h2 class="text-success text-center">HP<span
+              class="hpRobo1">100</span></h2>
+        </div>
+        <div class="my-3 col-md-4">
+          <h1 class="text-white-50 text-center display-4">X</h1>
+        </div>
+        <div class="my-3 col-md-4">
+          <h1 class="text-light text-center" id="infoRobo2">Doomerval</h1>
+          <h2 class="text-success text-center">HP<span
+            class="hpRobo2">100</span></h2>
+        </div>
+      </div>
+      <canvas id="canvas" width="1000" height="500" class="canvas"></canvas>
+      <div class="d-none">
+        <img id="source" src="./images/pngfind.com-darth-vader-helmet-png-1283805.png" width="70" height="70" />
+      </div>
+      <h1 id="vitoria" class="text-light text-center display-1 opacity-0"></h1>
+      <button class="jogarNovamente btn btn-light mx-auto my-1 opacity-0">Jogar novamente!</button>
+    </div>
+  </main>
+  <script type="text/javascript" src="./js/quadrado.js"></script>
+  <script type="text/javascript" src="./js/funcoes.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
